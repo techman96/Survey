@@ -1,0 +1,85 @@
+body{
+  background:seagreen;
+  font-family:Tahoma;
+  font-size:15px;
+  color:white;
+  background-image: url(student.jpg);
+}
+
+form{
+  max-width: 750px;
+  width:80vw;
+  min-width: 300px;
+  margin:0 auto;
+  background-color:rgba(34, 18, 55, 0.85);
+  padding: 20px;
+}
+h1{
+  text-align:center;
+  margin:0 auto;
+  padding-top: 50px;
+}
+
+p{
+  text-align: center;
+  margin:0 auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+fieldset{
+  margin: 0 0;
+  padding: 10px 20px;
+  border: none;
+}
+
+input, select{
+  display:block;
+  margin:10px auto;
+  width:100%;
+  padding: 0;
+  background-color:#331b52;
+  border:none;
+  height: 2.5em;
+  color: white;
+}
+
+textarea{
+  width: 100%;
+  margin:0 0;
+  height: 6em;
+  font-size: 15px;
+}
+
+#definitely, #maybe, #not-sure{
+  width: unset;
+  margin:0 0.5em 0 0;
+  display: inline;
+  vertical-align: middle;
+}
+
+.inline{
+  width: unset;
+  margin:0 0.5em 0 0;
+  display: inline;
+  vertical-align: middle;
+}
+
+
+label{
+  display:block;
+  margin: 10px 0;
+}
+
+option{
+  color: white;
+  font-size: 15px;
+}
+
+
+#submit{
+  background:orange;
+  border:none;
+  height:3em;
+  margin: 20px 0;
+}
