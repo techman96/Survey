@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+  <html lang='us'>
+    <head>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel='stylesheet' href='styles.css'>
+	  <title>Survey Form</title>
+    </head>
+    <body>
+      <h1 id='title'>freeCodeCamp Survey Form</h1>
+      <p id='description'>Thank you for taking the time to help us improve the platform</p>
+      <form id='survey-form' action='www.google.com'>
+        <fieldset>
+          <label id='name-label' for='name'>Name<input id='name' placeholder='Enter your name' type="text" required></input></label>
+          <label id='email-label' for='email'>Email<input id='email' placeholder='Enter your Email' type="email" required></label>
+          <label id='number-label' for='number'>Age (optional)<input id='number' placeholder='Age' type="number" min='13' max='99'></label>
+          <label>Which option best describes your current role?
+            <select id='dropdown'>
+              <option>Select current role</option>
+              <option>Student</option>
+              <option>Full Time job</option>
+              <option>Full Time Learner</option>
+              <option>Prefer not to say</option>
+              <option>other</option>
+              </select>
+           </label>
+        </fieldset>
+      
+        <fieldset class="radio">
+          <label for='defninitely'><input id='definitely' type='radio' name='Definitely-Maybe-Not Sure' value='choice' checked>Definitely</label>
+          <label for='defninitely'><input id='maybe' type='radio' name='Definitely-Maybe-Not Sure' value='choice'>Maybe</label>
+          <label for='defninitely'><input id='not-sure' type='radio' name='Definitely-Maybe-Not Sure' value='choice'>Not Sure</label>
+        </fieldset>
+        <fieldset>
+          <label for='dropdown'>What is your favorite feature of freeCodeCamp?
+            <select id='dropdown'>
+              <option>Select an option</option>
+              <option>Challenges</option>
+              <option>Projects</option>
+              <option>Community</option>
+              <option>Open Source</option>
+            </select>
+          </label>
+        </fieldset>
+        <fieldset>
+        	<label>What would you like to see improved? (Check all that apply)</label>
+          <label for='check'><input id='check' type='checkbox' class="inline" value="checkbox" checked>Front-end Projects</label>
+          <label for='checks'><input id='checks' type='checkbox' value="checkbox" class="inline">Back-end Projects</label>
+        </fieldset>
+          <label>Any comments or suggestions?</label>
+        <textarea id='' rows='3' cols='34' placeholder='Enter your comment here. . .' ></textarea>
+          <input type='submit' id='submit'>
+      </form>
+    
+  </body>
+  </html>
